@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Tailwind CSS with Parcel</title>
+   
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 border-b">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="../index.html" class="flex items-center">
+          <img src="../img/logo.png" class="mr-3 h-14" alt="Flowbite Logso" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-indigo-600"
+            >Food Ninja</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-slate-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="../index.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="../dishes.html"
+                class="block py-2 pl-3 pr-4 text-indigo-50 bg-indigo-700 rounded md:bg-transparent md:text-indigo-600 md:p-0"
+                >All Dishes</a
+              >
+            </li>
+            <li>
+              <a
+                href="../links.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
+                >Links</a
+              >
+            </li>
+            <li>
+              <a
+                href="../about.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main class="m-2">
+      <div
+        class="max-w-screen-xl flex flex-wrap justify-between mx-auto border border-gray-200 rounded-lg bg-indigo-100"
+      >
+        <img
+          src="../img/jalebi.jpg"
+          alt=""
+          class="rounded-lg md:w-2/3 object-cover"
+        />
+        <div class="border-slate-500 w-96 p-6">
+          <h1 class="text-4xl font-bold">Jalebi</h1>
+          <h2 class="text-2xl font-semibold">Description</h2>
+          <ul>
+            <li>1 cup milk powder</li>
+            <li>1/4 cup all purpose flour</li>
+            <li>1/4 tsp baking soda</li>
+            <li>1/4 cup ghee</li>
+            <li>1/2 cup milk</li>
+          </ul>
+          <h2 class="text-2xl font-semibold">Did you know?</h2>
+          <p class="text-justify">
+            Jalebi is a milk-solid-based sweet from the Indian subcontinent. Its
+            name is derived from the Persian words gol (flower) and āb (water),
+            referring to the rose water-scented syrup. It is a
+          </p>
+          <h2 class="text-2xl font-semibold">Calories</h2>
+          <p>Calories: 387</p>
+        </div>
+      </div>
+      <div class="max-w-screen-xl mx-auto p-2 text-justify">
+        Jalebi is a milk-solid-based sweet from the Indian subcontinent, and a
+        type of mithai, popular in India, Nepal, Pakistan, the Maldives, and
+        Bangladesh, as well as Myanmar. It is also common in Mauritius, Fiji,
+        southern and eastern Africa, Malay Peninsula, and the Caribbean
+        countries of Trinidad and Tobago, Guyana, Suriname and Jamaica. It is
+        made mainly from milk solids, traditionally from freshly curdled milk.
+        It is often garnished with dried nuts such as almonds to enhance
+        flavour.
+
+        <h1
+          class="text-2xl font-semibold text-indigo-600 border-l-4 border-indigo-600 pl-2 mt-6"
+        >
+          Why does this recipe work
+        </h1>
+
+        Well, the name Jalebi is itself sufficient for its popularity. Yet there
+        are certain key things that make this recipe a perfect dessert. To name
+        a few
+        <ol class="list-decimal list-inside">
+          <li>
+            <span class="font-semibold"> Shape and Texture -</span>
+            There is no denying that, the Jalebis are super attractive. If not
+            convinced, just look at the photos in this post. In addition, the
+            moist and soft texture due to the sugar syrup is just icing on the
+            cake.
+          </li>
+          <li>
+            <span class="font-semibold"> Cooking Steps -</span> Generally, the
+            assumption is that, any premium Indian dessert recipes are
+            comparatively complicated to prepare. Yet there are few recipes as
+            exceptions. One such premium dessert recipe is Jalebi Recipe.
+          </li>
+          <li>
+            <span class="font-semibold"> Basic Ingredients - </span>Typically
+            all premium Indian sweets are made out of a complex combination of
+            ingredients or niche ingredients. However, in this recipe, the soft
+            Jalebis are made out of milk solids or milk powder.
+          </li>
+          <li>
+            <span class="font-semibold"> Versatile </span> The biggest advantage
+            of this recipe is the variations by which it can be served. It can
+            be served chilled, warm, hot, or with other toppings. The popular
+            toppings are vanilla ice cream or any type of creamy ice cream.
+          </li>
+        </ol>
+        <h1
+          class="text-2xl font-semibold text-indigo-600 border-l-4 border-indigo-600 pl-2 mt-6"
+        >
+          Chef Tips for Soft Jalebi:
+        </h1>
+
+        <ol class="list-decimal list-inside">
+          <li>
+            <span class="font-semibold">Ingredients Quality -</span> The quality
+            of the milk powder or khoya is super important for this recipe.
+            Fresh ingredients should help to get better texture and softness.
+          </li>
+          <li>
+            <span class="font-semibold">Dough Kneading -</span> Kneading can
+            define the result of this recipe. The kneading should be done with
+            the palm and not with fingers for gentle pressure. Knead it till it
+            becomes lite sticky.
+          </li>
+          <li>
+            <span class="font-semibold">Frying Temperature -</span> Ghee or oil
+            used for frying, should not be piping hot. It should be moderate in
+            temperature so that it gets slowly and evenly.
+          </li>
+          <li>
+            <span class="font-semibold">Shape &amp; Size -</span> Size matters.
+            Small-sized balls are easy to shape without any cracks while frying.
+            Particularly, if you are a beginner, start with a small size and
+            increase it gradually.
+          </li>
+          <li>
+            <span class="font-semibold">Sugar Syrup -</span> The sugar syrup
+            should not have even single thread consistency. It should be lite so
+            that it can be easily absorbed.
+          </li>
+          <li>
+            <span class="font-semibold">Overcrowding -</span> Do not overcrowd
+            while deep frying or soaking in sugar syrup. Give little space to
+            these Jalebis as they tend to increase in its size in each step.
+          </li>
+          <li>
+            <span class="font-semibold">Practice -</span> It is a simple and
+            easy recipe, yet room for mistakes. I trust, each time you prepare,
+            you would learn and rationalize from previous encounters.
+          </li>
+        </ol>
+      </div>
+    </main>
+
+    <footer></footer>
+    <!-- flowbite -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>

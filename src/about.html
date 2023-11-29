@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>Tailwind CSS with Parcel</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="bg-white border-gray-200 border-b">
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="links.html" class="flex items-center">
+          <img src="./img/logo.png" class="mr-3 h-14" alt="Flowbite Logso" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap text-indigo-600"
+            >Food Ninja</span
+          >
+        </a>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <svg
+            class="w-5 h-5"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 17 14"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15"
+            />
+          </svg>
+        </button>
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-slate-200 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
+          >
+            <li>
+              <a
+                href="./index.html"
+                aria-current="page"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="./dishes.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
+                >All Dishes</a
+              >
+            </li>
+            <li>
+              <a
+                href="./links.html"
+                class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-indigo-600 md:p-0"
+                >Links</a
+              >
+            </li>
+            <li>
+              <a
+                href="./about.html"
+                class="block py-2 pl-3 pr-4 text-indigo-50 bg-indigo-700 rounded md:bg-transparent md:text-indigo-600 md:p-0"
+                >About
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main
+      class="max-w-screen-xl mx-auto p-2 flex flex-wrap gap-3 justify-center"
+    >
+      <div class="flex justify-center border-2 rounded-lg flex-wrap p-2">
+        <img
+          src="./img/logo_high.png"
+          alt=""
+          class="w-96 h-80 object-cover rounded-lg shadow-lg"
+        />
+
+        <div class="max-w-2xl flex flex-col justify-center p-4 gap-4">
+          <h1 class="text-4xl font-extrabold md:text-5xl xl:text-6xl">
+            FOOD NINJA
+          </h1>
+          <p class="font-light text-gray-800 text-justify">
+            From sweet desserts to spicy curries, discover new Indian dishes
+            that. Here you can find the best Indian food recipes and dishes for
+            cooking at home. We have curated a list of the most popular Indian
+            for every taste that are easy to make at home.
+          </p>
+
+          <a
+            href="./dishes.html"
+            class="w-48 inline-flex items-center justify-center px-5 py-3 border-2 border-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white text-indigo-600 font-semibold transition-all duration-500"
+          >
+            See all dishes
+          </a>
+        </div>
+      </div>
+      <div class="flex justify-center border-2 rounded-lg flex-wrap p-2">
+        <img
+          src="./img/tikka_masala.jpg"
+          alt=""
+          class="rounded-lg shadow-lg w-96"
+        />
+
+        <div class="max-w-2xl flex flex-col justify-center p-4 gap-4">
+          <h1 class="mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl">
+            EASY TO MAKE
+          </h1>
+          <p class="font-light text-gray-800 text-justify">
+            Our recipes are easy to make at home. We have curated a list of the
+            most popular Indian. Here you can find the best Indian food recipes
+            and dishes for cooking at home. From spicy to healthy, we have all
+            kind of recipes.
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center border-2 rounded-lg flex-wrap p-2">
+        <img src="./img/roti.jpg" alt="" class="rounded-lg shadow-lg w-96" />
+
+        <div class="max-w-2xl flex flex-col justify-center p-4 gap-4">
+          <h1 class="mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl">
+            HEALTHY
+          </h1>
+          <p class="font-light text-gray-800 text-justify">
+            You can find healthy recipes on our website. We have selected the
+            best healthy recipes for you. From spicy to healthy. Lose weight
+            while eating delicious food. Here you can find the best Indian food
+            recipes and dishes for cooking at home.
+          </p>
+        </div>
+      </div>
+      <div class="flex justify-center border-2 rounded-lg flex-wrap p-2">
+        <div class="max-w-2xl flex flex-col justify-center">
+          <img
+            src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
+            alt=""
+            class="w-96 rounded-lg shadow-lg"
+          />
+        </div>
+
+        <div class="max-w-2xl flex flex-col justify-center p-4 gap-4">
+          <h1 class="mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl">
+            FREE TO USE AND SHARE
+          </h1>
+          <p class="font-light text-gray-800 text-justify">
+            Our recipes are free to use and share for everyone. You can use our
+            recipes for your own website or blog. You can also share our recipes
+            on social media. We use Creative Commons Attribution 4.0, CC BY
+            which let you share, copy, and redistribute our recipes in any
+            medium or format but you must give appropriate credit, provide a
+            link to the license, and indicate if changes were made.
+          </p>
+
+          <a
+            href="https://creativecommons.org/licenses/by/4.0/"
+            class="w-48 inline-flex items-center justify-center px-5 py-3 border-2 border-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white text-indigo-600 font-semibold transition-all duration-500"
+          >
+            Learn more
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+    <!-- flowbite -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  </body>
+</html>
