@@ -1,9 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet">
+    <link href="./index.css" rel="stylesheet" />
     <title>Tailwind CSS with Parcel</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
@@ -13,14 +13,15 @@
   <body>
     <nav class="bg-white border-gray-200 border-b">
       <div
-        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-4"
       >
         <a href="index.html" class="flex items-center">
-          <img src="./img/logo.png" class="mr-3 h-14" alt="Flowbite Logso" />
+          <img src="./img/logo.svg" class="h-24" alt="Flowbite Logso" />
           <span
             class="self-center text-2xl font-semibold whitespace-nowrap text-indigo-600"
-            >Food Ninja</span
           >
+            Food Ninja
+          </span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -112,7 +113,7 @@
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img
-                src="./img/kulche.jpg"
+                src="./img/kulcha.webp"
                 class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2"
                 alt="..."
               />
@@ -151,10 +152,9 @@
             data-carousel-prev
           >
             <span
-              class="w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-600 dark:bg-gray-800/30 text-white group-hover:bg-gray-900 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              class="text-white font-bold text-4xl transition-all duration-500 hover:scale-150 bg-indigo-600 bg-opacity-50 rounded-full p-2 h-12 w-12 flex items-center justify-center"
             >
               &larr;
-
               <span class="hidden">Previous</span>
             </span>
           </button>
@@ -164,10 +164,10 @@
             data-carousel-next
           >
             <span
-              class="w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-gray-600 dark:bg-gray-800/30 group-hover:bg-gray-600 text-white dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              class="text-white font-bold text-4xl transition-all duration-500 hover:scale-150 bg-indigo-600 bg-opacity-50 rounded-full p-2 h-12 w-12 flex items-center justify-center"
             >
               &rarr;
-              <span class="hidden">Next</span>
+              <span class="hidden">Next </span>
             </span>
           </button>
         </div>
@@ -176,14 +176,14 @@
         class="flex justify-center max-w-screen-xl mx-auto mt-4 border-2 rounded-lg p-2 flex-wrap"
       >
         <img
-          src="./img/kulche.jpg"
+          src="./img/kulcha.webp"
           alt=""
           class="object-cover w-96 rounded-lg shadow-lg"
         />
 
         <div class="p-4">
           <h1
-            class="max-w-2xl mb-4 text-4xl font-extrabold md:text-5xl xl:text-6xl"
+            class="max-w-2xl p-2 font-extrabold text-3xl  md:text-5xl xl:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-indigo-950 "
           >
             Discover New Indian Dishes on Food Ninja
           </h1>
@@ -194,11 +194,13 @@
           </p>
 
           <a
-            href="./dishes.html"
-            class="inline-flex items-center justify-center px-5 py-3 border-2 border-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white text-indigo-600 font-semibold transition-all duration-500"
-          >
-            See all dishes
-          </a>
+          href="./dishes.html"
+          class="inline-flex items-center justify-center px-5 py-3 border-2 border-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white text-indigo-600 font-semibold" >
+          See all dishes
+          <span class="ml-3 text-xl animate-ping inline-flex rounded-full h-6 w-6 bg-indigo-600 items-center justify-center text-white">
+            &rarr;
+          </span>
+        </a>
         </div>
       </div>
 
@@ -250,11 +252,11 @@
         <div class="rounded-lg overflow-hidden shadow-lg relative">
           <img
             class="h-56 w-full object-cover object-center rounded-t-lg"
-            src="./img/kulche.jpg"
+            src="./img/butter_chicken.webp"
             alt="Sunset in the mountains"
           />
 
-          <div class="px-6 py-4">
+          <div class="px-6 py-4 ">
             <a
               href="./dishes.html#punjabi"
               class="font-bold text-2xl inline-block hover:text-indigo-600 hover:scale-110 transition-all duration-500"
@@ -269,7 +271,40 @@
       </div>
     </main>
 
-    <footer></footer>
+  
+    <footer
+      class="w-screen p-2 bg-indigo-600 text-white flex flex-wrap justify-center gap-4 items-center"
+    >
+      <img
+        src="./img/logo.svg"
+        class="h-20 bg-white rounded-full"
+        alt="Flowbite Logo"
+      />
+      <span class="text-sm">
+        © 2023 Food Ninja
+        <!-- <span class="text-sm text-gray-300"> All rights reserved</span> -->
+      </span>
+      <div class="flex flex-wrap justify-center gap-4 items-center">
+        <a href="#" class="text-sm text-gray-300 hover:text-white"> Home </a>
+        <a href="#" class="text-sm text-gray-300 hover:text-white"> Links </a>
+        <a href="#" class="text-sm text-gray-300 hover:text-white"> About </a>
+        <a href="#" class="text-sm text-gray-300 hover:text-white"> Dishes </a>
+
+        <!-- <div class="flex flex-wrap justify-center gap-4 items-center">
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Dosa </a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Idli </a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Jalebi </a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Jamoon </a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Kulche </a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">
+            Rasgulla
+          </a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Roti</a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Saag</a>
+          <a href="#" class="text-sm text-gray-300 hover:text-white">Uttapam</a> -->
+        </div>
+      </div>
+    </footer>
     <!-- flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
   </body>
