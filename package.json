@@ -5,6 +5,9 @@
     "tailwindcss": "^3.3.5"
   },
   "dependencies": {
-    "imagemin": "^8.0.1"
-  }
+    "imagemin": "^8.0.1",
+    "imagemin-avif": "^0.1.4",
+    "imagemin-webp": "^8.0.0"
+  },
+  "type": "module"
 }
