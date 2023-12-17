@@ -7,9 +7,9 @@
   "scripts": {
     "start": "parcel ./src/index.html",
     "prebuild-dev": "shx rm -rf dist/*",
-    "build-dev": "parcel build ./src/index.html --no-optimize --public-url https://cirvianum-daw.github.io/mp9-pj-uf2-optimitzacio-imatges-gsingh704/",
+    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
     "prebuild": "shx rm -rf dist/*",
-    "build": "parcel build ./src/index.html --public-url ./",
+    "build": "parcel build ./src/index.html --public-url https://cirvianum-daw.github.io/mp9-pj-uf2-optimitzacio-imatges-gsingh704/",
     "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "dependencies": {
