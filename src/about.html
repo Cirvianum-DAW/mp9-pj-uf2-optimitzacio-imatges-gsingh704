@@ -1,20 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./index.css" rel="stylesheet" />
     <title>Tailwind CSS with Parcel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css"
       rel="stylesheet"
     />
     <style>
       @keyframes rotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
       }
-  
+
       .logo-animation {
         animation: rotate 5s infinite linear;
       }
@@ -98,11 +103,10 @@
     >
       <div class="flex justify-center border-2 rounded-lg flex-wrap p-2">
         <img
-        src="./img/logo.svg"
-        alt=""
-        class="w-96 h-80 object-cover logo-animation"
-      />
-    
+          src="./img/logo.svg"
+          alt=""
+          class="w-96 h-80 object-cover logo-animation"
+        />
 
         <div class="max-w-2xl flex flex-col justify-center p-4 gap-4">
           <h1 class="text-4xl font-extrabold md:text-5xl xl:text-6xl">
@@ -189,7 +193,7 @@
       </div>
     </main>
 
-      <footer
+    <footer
       class="w-screen p-2 bg-indigo-600 text-white flex flex-wrap justify-center gap-4 items-center"
     >
       <img

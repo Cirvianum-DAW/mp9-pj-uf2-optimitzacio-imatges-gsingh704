@@ -1,4 +1,7 @@
-#
+# Link
+[Website Link](https://cirvianum-daw.github.io/mp9-pj-uf2-optimitzacio-imatges-gsingh704/src/)
+
+
 
 # Images
 
@@ -14,7 +17,7 @@ But I just used parcels auto conversion to optimize my images
 
 ## Sharp and Parce
 
-https://drive.google.com/file/d/1pjKJtN406Z4S55O7WjKnMNHboIkfE0xS/view?usp=sharing
+[Video Link](https://drive.google.com/file/d/1pjKJtN406Z4S55O7WjKnMNHboIkfE0xS/view?usp=sharing)
 
 ## Manually Converting
 
