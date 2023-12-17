@@ -48,7 +48,7 @@ Command used by me is
 
 ##  CSS Animation</a>
 
-```css
+```html
 
      <a href="./dishes.html"
         class="inline-flex items-center justify-center px-5 py-3 border-2 border-indigo-600 rounded-lg hover:bg-indigo-600 hover:text-white text-indigo-600 font-semibold">
